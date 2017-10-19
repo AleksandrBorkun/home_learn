@@ -33,7 +33,7 @@ public class GmailLoginStep {
 	public void i_log_in_to_mail_system() throws Throwable {
 	   loginPage.fillEmailFieldAndClickNext("Alexandr.Borkun1992@gmail.com");
 	   psswdPage = new GmailPsswdPage();
-	   psswdPage.fillPsswdFieldAndClickNext("whereismymind17");
+	   psswdPage.fillPsswdFieldAndClickNext("***********");
 	   // throw new PendingException();
 	}
 
